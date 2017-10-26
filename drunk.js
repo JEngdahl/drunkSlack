@@ -1,4 +1,4 @@
-
+module.exports = {
 function translatePost(inp) {
 
 //Input
@@ -83,5 +83,6 @@ for (i=0;i<post.length;i++) {
 var drunkPost = post.join(" ");
 
 console.log(drunkPost)
-
+	return drunkPost
+}
 }
