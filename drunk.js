@@ -1,5 +1,5 @@
 module.exports = {
-function translatePost(inp) {
+translatePost : function (inp) {
 
 //Input
 var post = inp
@@ -9,7 +9,7 @@ var post = inp
 
 post = post.split(" ");
 
-var drunk = 6;
+var drunk = 1;
 
 for (i=0;i<post.length;i++) {
 
