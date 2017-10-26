@@ -14,9 +14,11 @@ app.get("/",function(req,res){
 
 app.post("/drunk", function(req,res){
 
-  console.log(req.body)
+  //console.log(req.body)
 
-  res.send("Got it")
+  let drunkTxt = drunk.translatePost(req.body.text)
+
+  res.send(drunkTxt)
 })
 
 app.listen(port)
