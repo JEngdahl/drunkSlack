@@ -1,0 +1,12 @@
+{
+  "name": "drunkslackapp",
+  "version": "1.0.0",
+  "description": "Making you sound dumb since 2k17",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jarett Engdahl",
+  "license": "ISC"
+}
