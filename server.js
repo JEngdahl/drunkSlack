@@ -14,7 +14,7 @@ app.get("/",function(req,res){
 
 app.post("/drunk", function(req,res){
 
-
+  console.log(req.body)
 
   res.send("Got it")
 })
